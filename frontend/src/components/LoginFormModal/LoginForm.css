@@ -1,0 +1,50 @@
+/* frontend/src/components/LoginFormPage/LoginForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: 0px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 50px;
+    width: 300px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    border: 0px;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    transition: background-color 0.2s, color 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+.error-message {
+    color: lightcoral;
+    list-style: none;
+    border-radius: 50px;
+    padding: 5px 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-left: -40px;
+}

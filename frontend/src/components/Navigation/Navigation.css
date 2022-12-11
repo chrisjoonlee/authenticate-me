@@ -1,0 +1,41 @@
+.nav {
+    background-color: coral;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.nav button {
+    width: auto;
+}
+
+#profile-btn {
+    background-color: coral;
+    color: white;
+}
+
+#logout-btn {
+    background-color: lightgreen;
+    font-weight: 900;
+    color: darkgreen;
+    width: 100px;
+}
+
+#logout-btn:hover {
+    background-color: darkgreen;
+    color: white;
+}
